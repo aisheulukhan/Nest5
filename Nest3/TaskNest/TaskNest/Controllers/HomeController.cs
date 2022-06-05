@@ -30,5 +30,9 @@ namespace TaskNest.Controllers
             };
             return View(homeVM);
         }
+        public IActionResult Details()
+        {
+            return View();
+        }
     }
 }
